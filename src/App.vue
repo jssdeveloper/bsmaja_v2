@@ -13,6 +13,8 @@
   <CfFba />
   <CfEco />
   <IzolacijasSerdenis />
+  <VisparejaMontaza />
+  <Atdalisana/>
 
 
   <Footer />
@@ -34,4 +36,6 @@ import ApstradesNoradijumi from "./components/ApstradesNoradijumi.vue"
 import CfFba from "./components/CfFba.vue";
 import CfEco from "./components/CfEco.vue";
 import IzolacijasSerdenis from "./components/IzolacijasSerdenis.vue"
+import VisparejaMontaza from "./components/VisparejaMontaza.vue";
+import Atdalisana from "./components/Atdalisana.vue"
 </script>
