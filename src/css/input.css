@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Start and end position */
+    }
+
+    50% {
+        transform: translateY(-10px);
+        /* Middle position - move up */
+    }
+}
+
+.animated-image {
+    animation: moveUpDown 3s ease-in-out infinite;
+    /* Use desired duration and timing */
+}
+
+html {
+    scroll-behavior: smooth;
+  }
